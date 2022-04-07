@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio Administradores</title>
+    
+   
+    <link rel="stylesheet" href="CSS/estiloMenuAdmn.css">
+    
+    <script src="https://kit.fontawesome.com/caa81e1b11.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <nav class="sidebar close">
+        <header>
+            <i class="fa-solid fa-chevron-right toggle"></i>
+        </header>
+
+        <div class="menu-bar">
+            <div class="menu">
+
+                <ul class="menu-links">
+                    <li class="nav-link">
+                        <a href="MenuAdmn.html">
+                            <i class="fa-solid fa-house icon"></i>
+                            <span class="text nav-text">Inicio</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="ClientesAdmn.html">
+                            <i class="fa-solid fa-people-line icon"></i>
+                            <span class="text nav-text">Clientes</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="RepartidoresAdmn.html">
+                            <i class="fa-solid fa-motorcycle icon"></i>
+                            <span class="text nav-text">Repartidores</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="AdmiRabbion.html">
+                            <i class="fa-solid fa-laptop-file icon"></i>
+                            <span class="text nav-text">Administración</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="EmpresasAfi.html">
+                            <i class="fa-solid fa-building-user icon"></i>
+                            <span class="text nav-text">Empresas Afiliadas</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="MensajesAdmn.html">
+                            <i class="fa-solid fa-envelope icon"></i>
+                            <span class="text nav-text">Mensajes</span>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+
+            <div class="bottom-content">
+                <li class="">
+                    <a href="LoginAdmn.html">
+                        <i class="fa-solid fa-arrow-right-from-bracket icon"></i>
+                        <span class="text nav-text">Cerrar sesión</span>
+                    </a>
+                </li>
+
+                
+            </div>
+        </div>
+
+    </nav>
+
+    <section>
+            <div class="barrita">
+                <h2>Inicio</h1>
+                <h3>@PerfilAdmin</h3>
+                <img class="logo" src="Img/Logo.png" alt="">      
+            </div>
+    </section>
+
+    <div class="flex-container">
+        <div class="div-cajas">
+            <h1 id="cajitas">Perfil Administrador</h1>
+            <i class="fa-solid fa-user"></i>
+          <div class="div-cajas-hijas" >
+            <p>Nombre Administrador</p>
+            <br>
+            <p>@PerfilAdministrador</p>
+          </div>
+          <a class="Check-button"href="#"><input class="Check-button"type="button" value="Revisar"></a>
+        </div>
+        <div class="div-cajas">
+            <h1 id="cajitas">Actividades proximas</h1>
+            <i class="fa-solid fa-calendar-days"></i>
+          <div class="div-cajas-hijas" >
+            <p>Pedidos agendados</p>
+            <br>
+            <p>Calendario</p>
+          </div>
+          <a class="Check-button"href="#"><input class="Check-button"type="button" value="Revisar"></a>
+        </div>
+
+    </div>
+
+    <script>
+        const body = document.querySelector('body'),
+      sidebar = body.querySelector('nav'),
+      toggle = body.querySelector(".toggle"),
+      searchBtn = body.querySelector(".search-box"),
+      modeSwitch = body.querySelector(".toggle-switch"),
+      modeText = body.querySelector(".mode-text");
+
+
+toggle.addEventListener("click" , () =>{
+    sidebar.classList.toggle("close");
+})
+
+searchBtn.addEventListener("click" , () =>{
+    sidebar.classList.remove("close");
+})
+
+modeSwitch.addEventListener("click" , () =>{
+    body.classList.toggle("dark");
+    
+    if(body.classList.contains("dark")){
+        modeText.innerText = "Light mode";
+    }else{
+        modeText.innerText = "Dark mode";
+        
+    }
+});
+    </script>
+
+</body>
+</html>

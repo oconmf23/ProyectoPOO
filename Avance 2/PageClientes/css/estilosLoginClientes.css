@@ -1,0 +1,121 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Luckiest Guy', cursive;
+}
+
+body{
+    background-image: url(img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    margin: 0;
+}
+#back-button{
+    color:white;
+}
+
+#formulario{
+    background-color:rgba(255, 255, 255, 0.589)!important;
+    padding:20px;
+    display:flex;
+    flex-direction:column;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:6%;
+    width:95%;
+    border-radius: 40px;;
+}
+.flex-container{
+    display:flex;
+    justify-content: space-between;
+    text-align:center;
+    padding-top:14px;
+    padding-left: 20px;
+}
+.flex-container div{
+    text-align:center;
+    line-height:35px;
+    font-size:57px;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    margin-top:-20px;
+    color:white;
+    
+}
+#boton{
+    background-image: linear-gradient(rgb(66, 238, 66) 100%, white 1%);
+    padding-left: 30px;
+    padding-right: 30px;
+    width:60%;
+    margin-left:auto;
+    margin-right:auto;
+    height:80px;
+    font-size:27px;
+    margin-top:3%;
+}
+#tituloRabbion { 
+    color:white;
+    font-size: 20px;
+    font-family: 'Luckiest Guy', cursive;
+    font-weight: 700;
+    margin-right:14%;
+}
+#img-logo{
+    margin-top:13%;
+    width: 135px;
+}
+.caja-hija{
+    text-align: center;
+}
+.mensaje{
+    color:white;
+    margin-left:auto;
+    margin-right: auto;
+    padding-top:5%;
+}
+.mensaje h2{
+    font-size: calc(1.325rem + .9vw);
+    text-align-last: end;
+    padding-right: 10%;
+}
+
+.registro-titulo{
+    align-items: center;
+    text-align: center;
+}
+.registro-titulo b{
+    align-items: center;
+    text-align: center;
+    font-size:34px;
+}
+
+.input-text{
+    margin-right: auto;
+    margin-left:auto;
+    width:90%;
+    font-size: 24px;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    height:70px;
+}
+
+.container-enlace{
+    align-items: center;
+    text-align: center;
+}
+#link-final{
+    float: right;
+    color:grey;
+}
+section{
+    padding-left:6%;
+    padding-right:6%;
+}
+#checkbox-recuerdame{
+    margin-right:7px;
+}
+label{
+    font-size:17px;
+}

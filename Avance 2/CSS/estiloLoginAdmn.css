@@ -1,0 +1,168 @@
+*{
+    padding: 0;
+    margin: -1px;
+    box-sizing: border-box;
+}
+
+body {
+    background: #eaeaea;
+    font-family: 'calibri';
+}
+
+.Navbar{
+    width: 1080pt;
+    margin: 0 auto;
+}
+
+header {
+    background: #dadada;
+    width: 100%;
+    clear: both;
+    content:'';
+    display: table;
+}
+
+nav{
+    float: right;
+}
+nav ul li{
+    list-style: none;
+    margin-left: 75px;
+    padding: 20px 0;
+    float: right;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    margin: 599px 917px 41px 14px;
+    font-size: 15pt;
+}
+
+nav ul li a:hover{
+    color: #8ebc60;
+
+}
+img.logo {
+    /*float: left;*/
+    margin-right: 75px;
+    width: 96px;
+    height: 61px;
+    float: right;
+    padding: 3px;
+    padding-left: 3px;
+  }
+
+.fa-solid.fa-angle-left {
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    margin: 20px -51px 9px -21px;
+    padding: 0px 35px 1px 30px;
+    font-size: 24px;
+    /* width: 56px;*/
+    color: black;
+  }
+
+#formulario{
+    background-color: #c1e1b1;
+    color: #000000;
+    width: 671px;
+    height: 485px;
+    border-radius: 6px;
+    padding: 52px 60px;
+    margin: -35px 63px 23px 335px;
+    transition: all 0.3s ease-in-out;
+}
+
+/*#formulario:hover {
+    background-color:#d7f4c8;
+}*/
+
+
+#formulario h1{
+    font-size: 31px;
+    font-weight: 700;
+    width: -76px;
+    margin: 1px 0 1px 193px;
+}
+
+h3{
+    margin: 13px 0 -3px 70px;
+}
+
+.control.caja-texto{
+    margin: 1px 0 -18px 63px;
+    border-radius: 6px;
+    height: 41px;
+    width: 340px;
+    padding: 7px 22px 7px 24px;
+    font-size: 16px;
+
+}
+
+.fa-solid.fa-toggle-off{
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    margin: 1px -21px 1px 35px;
+    padding: 0px 27px 1px 30px;
+    font-size: 18px;
+    color:#007fff;
+}
+label{
+    margin: 1px 94px 0 -8px;
+    /* height: 0; */
+    /* width: 11px; */
+    padding: 0 6px 9px 11px;
+    font-size: 14px;
+}
+
+div section a{
+    font-size: 13px;
+    color: black;
+    padding: 4px 1px 3px 0;
+    margin: 6px 0 0 -16px;
+}
+
+.control.boton{
+    margin: 20px 0 38px 197px;
+    border-radius: 6px;
+    height: 40px;
+    width: 147px;
+    padding: 9px 0 5px 2px;
+    font-size: 16px;
+    color: white;
+    background-color: #90be62;
+   
+    font-weight: bold;
+
+}
+
+.control.boton:hover{
+    background-color:#d7f4c8;
+    border-color: #d7f4c8;
+    color:black;
+
+}
+
+div a i{
+    padding: 9px 9px 9px 9px;
+    margin: 9px 9px 9px 9px;
+}
+
+#link-info{
+    padding: 15px 7px 11px 60rem;
+    margin: 11px 2px 18px 9px;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    /* height: 0; */
+    /* width: 197px; */
+    /* float: right;*/
+}
+
+.fa-regular.fa-circle-question{
+    font-family: "Font Awesome 6 Free";
+    font-weight: 400;
+    font-size: 16px;
+}
